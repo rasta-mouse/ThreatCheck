@@ -25,7 +25,6 @@ internal class AmsiScanner : Scanner, IDisposable
         _fileBytes = bytes;
 
         var status = ScanBuffer(_fileBytes);
-        Console.WriteLine($"status value: {status}");
         
         if (status is not AmsiResult.AmsiResultDetected)
         {
