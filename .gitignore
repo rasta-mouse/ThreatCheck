@@ -397,3 +397,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .idea
+nuget.exe
+PowerShell/ThreatCheck.exe
+PowerShell/CommandLine.dll
+PowerShell/System.Management.Automation.dll
